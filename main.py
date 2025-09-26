@@ -101,7 +101,7 @@ def majorlogin_jwt():
 
             result = {
                 "token": token_value,
-                "@teamxcutehack": decoded_token
+                "teamofcracker": decoded_token
             }
             return jsonify(result), 200
         else:
